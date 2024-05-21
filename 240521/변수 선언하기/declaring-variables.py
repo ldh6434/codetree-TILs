@@ -1,3 +1,4 @@
 a = 3
 b = C
-print(a,\nb)
+print(a)
+print(b)
