@@ -1,2 +1,4 @@
-a , b = int(input()).split(".")
-print(f"{a + 1 : b}")
+a , b = input().split(".")
+a = int(a)
+b = int(b)
+print(f"{a + 1} : {b}")
