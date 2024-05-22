@@ -1,2 +1,2 @@
 a, b, c=input().split("-")
-print(f"{c}.{b}.{a}")
+print(f"{c}.{a}.{b}")
