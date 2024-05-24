@@ -1,2 +1,5 @@
 a,b,c=map(int,input().split())
-print(f"{a+b+c}\n{int((a+b+c)/3)}\n{(a+b+c)-int((a+b+c)/3)})
+d = a+b+c
+e = (a+b+c)/3
+f = d-e
+print(f"{d}\n{int(e)}\n{int(f)}")
