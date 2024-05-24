@@ -1,3 +1,5 @@
 a , b=map(int, input().split())
-print(f"{int(a + 87)}")
-print(f"{int(b // 10)}")
+a += 87
+print(a)
+b //= 10
+print(b)
