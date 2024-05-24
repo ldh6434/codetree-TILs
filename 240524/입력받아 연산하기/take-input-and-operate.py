@@ -1,5 +1,6 @@
-a , b=map(int, input().split())
+a = int(input())
 a += 87
 print(a)
-b //= 10
+b = int(input())
+b %= 10
 print(b)
