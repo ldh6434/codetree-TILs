@@ -1,13 +1,13 @@
-a = int(input())
-if a % 2 == 0:
-    if a == 2 :
-        print('28')
-    elif a == 8 and a== 10 and a ==12:
-        print('31')
-    else :
-        print('30')
-elif a % 2 == 1:
-    if a==9 and a ==11:
-    print('30')
-else:
-    print('31')
+n =int(input())
+
+if  n <= 7:
+    if  n %2 == 1:
+        print(31)
+    else:
+        if  n == 2:
+            print(28)
+        print(30)
+    if  n%2 == 1:
+        print(30)
+    else:
+        print(31)
