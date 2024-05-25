@@ -1,12 +1,12 @@
 a = int(input())
 b = int(input())
 if a == 0 :
-    if a >= 19 :
-        print(MAN)
+    if b >= 19 :
+        print('MAN')
     else :
-        print(BOY)
-else a == 1:
-    if a >= 19 :
-        print(WOMAN)
+        print('BOY')
+else :
+    if b >= 19 :
+        print('WOMAN')
     else : 
-        print(GIRL)
+        print('GIRL')
