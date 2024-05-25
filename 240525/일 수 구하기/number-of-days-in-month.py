@@ -6,8 +6,8 @@ if a % 2 == 0:
         print('31')
     else :
         print('30')
-if a % 2 == 1:
+elif a % 2 == 1:
     if a==9 and a ==11:
     print('30')
-    else:
-        print('31')
+else:
+    print('31')
