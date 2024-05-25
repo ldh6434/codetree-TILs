@@ -5,7 +5,7 @@ if a == 0 :
         print(MAN)
     else :
         print(BOY)
-if a == 1:
+else a == 1:
     if a >= 19 :
         print(WOMAN)
     else : 
