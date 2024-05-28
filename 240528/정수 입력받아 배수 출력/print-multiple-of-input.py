@@ -1,3 +1,3 @@
 n = int(input())
-for i in range(n, (n*5+1), 5):
+for i in range(n, n * 6, 5):
     print(n, end=' ')
