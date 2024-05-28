@@ -1,4 +1,4 @@
-a, b = map(int,input().split())
+b, a = map(int,input().split())
 while b >= a:
-    print(b, end = ' ')
+    print(b, end =' ')
     b -= 2
