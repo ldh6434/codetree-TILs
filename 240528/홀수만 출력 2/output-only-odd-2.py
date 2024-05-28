@@ -1,3 +1,3 @@
 a, b = map(int, input().split())
-for b in range(b, a-1, -2):
-    print(b, end= ' ')
+for a in range(a, b-1, -2):
+    print(a, end=' ')
