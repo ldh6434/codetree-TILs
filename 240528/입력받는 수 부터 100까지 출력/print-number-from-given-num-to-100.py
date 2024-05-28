@@ -1,3 +1,3 @@
-a=int(input())
-for a in range(98,101):
-    print(a, end=' ')
+n=int(input())
+for n in range(n,101):
+    print(n, end=' ')
