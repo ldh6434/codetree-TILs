@@ -1,2 +1,2 @@
 for i in range(5,17):
-    print(i, end=' ')
+    print(i, end='')
