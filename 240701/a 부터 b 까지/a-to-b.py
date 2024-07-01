@@ -1,5 +1,4 @@
 a, b= map(int, input().split())
-print(a, end=" ")
 while a <= b:
     print(a, end=' ')
     if a % 2 == 1:
