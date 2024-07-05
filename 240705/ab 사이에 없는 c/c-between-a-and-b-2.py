@@ -1,9 +1,9 @@
 a, b, c = map(int,input().split())
-a = False
+k = False
 for i in range (a,b+1):
     if i % c != 0:
-        a = True
-if a == True:
+        k = True
+if k == True:
     print('YES')
 else :
     print('NO')
